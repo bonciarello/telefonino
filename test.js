@@ -9,7 +9,7 @@ const html = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf-8');
 const scriptContent = fs.readFileSync(path.join(__dirname, 'script.js'), 'utf-8');
 
 const dom = new JSDOM(html, {
-  url: 'https://cristianporco.it/app/telefonino/',
+  url: 'https://github.com/bonciarello/telefonino/',
   runScripts: 'dangerously',
   pretendToBeVisual: true,
 });
